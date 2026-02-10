@@ -1,76 +1,78 @@
-# r.e.p.o-cheat
-made by D4rkks (and community) (second repo bc first one i fucked up)
+# R.E.P.O 菜单 (r.e.p.o.menu)
 
-> [!WARNING]
-> THIS IS A OPEN-SOURCE PROJECT! ITS NOT INTENDED TO BE SOLD OR TO BE THE ULTIMATE LAST R.E.P.O CHEAT, EVERYONE CAN USE IT AND FEEL FREE TO CONTRIBUTE!
-
-Basic C# Mono open-source cheat for a new lethal like game called R.E.P.O.
-
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/45f59200-fed3-4c40-b13b-5d4c86e12ca8" />
+开发：D4rkks (以及社区贡献者)
 
 ---
 
-## 🚀 Features
+## 功能列表
 
-### 👤 Self
-- **God Mode / Infinite Health**: Never die.
-- **Infinite Stamina**: Run forever.
-- **NoClip**: Fly through walls.
-- **Customizable Stats**: Adjust your Speed, Strength, Jump Force, Gravity, Throw Strength, and Grab Range in real-time.
-- **No Weapon Recoil/Cooldown**: Fire weapons without limitations.
-- **Grab Through Walls**: Interactive with objects anywhere.
-- **RGB Player**: Cycle through colors.
-- **No Fog**: Clear visibility in all levels.
-- **Custom FOV**: Change your Field of View from 60 to 120.
+### 1. 自身功能
+- 无敌模式 / 无限生命：免疫所有伤害。
+- 无限耐力：永久奔跑。
+- 穿墙模式 (NoClip)：自由穿过物理障碍。
+- 属性自定义：实时调整速度、力量、跳跃力、重力、投掷力度以及拾取距离。
+- 武器无后坐力/无冷却：取消武器连发限制。
+- 隔空取物：跨越墙壁与物体交互。
+- RGB 角色：循环变换玩家颜色。
+- 移除雾气：清除所有关卡内的雾气干扰。
+- 自定义视角 (FOV)：视角范围可在 60 到 120 之间调节。
 
-### 👁️ Visuals (ESP)
-- **Modern UI**: Clean and intuitive menu design.
-- **Enemy ESP**: See enemies through walls with Boxes, Names, Distance, and Health.
-- **Item ESP**: Track valuables with Box, Value, and Name. Includes a minimum value filter.
-- **Player ESP**: Track allies/others with HP and Distance.
-- **Extraction ESP**: Find exits easily.
-- **Chams**: Customizable 3D Chams for both items and enemies.
-- **Map Info**: Displays total value of items on the map and player status list.
+### 2. 视觉效果 (ESP)
+- 现代 UI：简洁直观的菜单交互界面。
+- 敌人透视：方框、名称、距离以及生命值显示。
+- 物品透视：显示物品方框、价值和名称。内置最低价值过滤功能。
+- 玩家透视：显示队友或其他玩家的血量和距离。
+- 撤离点透视：快速定位撤离位置。
+- 渲染着色器 (Chams)：为物品和敌人提供可自定义的 3D 透视着色。
+- 地图信息：显示地图上物品的总价值及玩家状态列表。
 
-### ⚔️ Combat & Players
-- **Player Interaction**: Damage, heal, kill, or revive any player in the lobby.
-- **Teleportation**: Move players to yourself, to each other, or into "The Void".
-- **Social**: Spoof names or use a Rainbow Name effect.
+### 3. 战斗与玩家
+- 玩家交互：对大厅内的任何玩家进行伤害、治疗、击杀或复活。
+- 传送功能：将玩家传送到自己身边、互相传送或传送到虚空。
+- 社交伪装：修改名字或开启彩虹名字特效。
 
-### 👾 Enemies
-- **Enemy Control**: Blind all enemies or kill them instantly.
-- **Teleport Enemies**: Bring monsters to specific players.
-- **Mob Spawner**: Spawn any enemy in the game (Host/MasterClient required).
+### 4. 敌人控制
+- 敌人制衡：使所有敌人致盲或立即击杀它们。
+- 敌人传送：将怪物传送到指定玩家位置。
+- 怪物生成：在游戏中生成任何敌人（需主机/MasterClient 权限）。
 
-### 📦 Items
-- **Item Spawner**: Spawn valuables with custom values (Host/MasterClient required).
-- **Item Teleport**: Pull all items to your position.
-- **Remote Sell**: Sell items without going back to the ship.
+### 5. 物品管理
+- 物品生成：生成指定价值的珍贵物品（需主机/MasterClient 权限）。
+- 物品传送：将所有物品拉取到你的位置。
+- 远程出售：无需返回飞船即可出售物品。
 
-### 🛠️ Misc & Server
-- **Server Browser**: Powerful lobby search with filters (Region, Players, Hidden full lobbies).
-- **Hotkey Manager**: Bind any cheat feature to your preferred keys.
-- **Config System**: Save and load your cheat settings automatically.
-- **Trolling Features**: Lobby Crasher, Fake Player Spawner, and NPC Spam.
-
----
-
-## 🛠️ Requirements
-- Any Mono Injector (like [SMI](https://github.com/wh0am15/SharpMonoInjector))
-- The game **R.E.P.O**
-
-## 🏗️ How to Build
-1. Open the `.sln` or `.csproj` in **Visual Studio**.
-2. Set configuration to **Release**.
-3. Build Solution (Ctrl+Shift+B).
-4. The DLL will be in `bin/Release/r.e.p.o cheat.dll`.
-
-## 💉 How to Inject
-Use the provided `start_and_inject.bat` or your favorite injector with:
-- **Namespace**: `r.e.p.o_cheat`
-- **Class**: `Loader`
-- **Method**: `Init`
+### 6. 杂项与服务器
+- 服务器浏览器：带有过滤器（区域、玩家数、隐藏满员房间）的强大搜索功能。
+- 热键管理：可将任何功能绑定至你习惯的按键。
+- 配置系统：自动保存和加载你的个性化设置。
+- 整活功能：崩溃大厅、伪造玩家生成以及 NPC 刷屏。
 
 ---
 
-*Enjoy responsibility! Or not. It's a cheat after all.*
+## 运行需求
+- 任何支持 Mono 的注入器 (例如 SharpMonoInjector / SMI)
+
+---
+
+## 构建步骤
+1. 使用 Visual Studio 打开 `.sln` 或 `.csproj` 文件。
+2. 将构建配置设置为 Release。
+3. 执行生成解决方案 (Ctrl+Shift+B)。
+4. 编译后的 DLL 文件将位于 `r.e.p.o cheat/bin/Release/r.e.p.o cheat.dll`。
+
+---
+
+## 注入方法
+
+推荐使用 SharpMonoInjector (SMI) 进行注入，命令行参考如下：
+
+```shell
+smi.exe inject -p REPO -a r.e.p.o.cheat.dll -n r.e.p.o_cheat -c Loader -m Init
+```
+
+**注入参数说明：**
+- 进程名 (-p): REPO
+- 程序集 (-a): r.e.p.o.cheat.dll
+- 命名空间 (-n): r.e.p.o_cheat
+- 类名 (-c): Loader
+- 方法名 (-m): Init
