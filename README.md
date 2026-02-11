@@ -1,8 +1,5 @@
-# R.E.P.O 菜单 (r.e.p.o.menu)
-
+<img width="1632" height="1015" alt="image" src="https://github.com/user-attachments/assets/a370e885-545f-4575-a1b3-f0339b118ef6" />
 开发：D4rkks (以及社区贡献者)
-
----
 
 ## 功能列表
 
